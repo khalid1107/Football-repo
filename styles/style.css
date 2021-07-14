@@ -47,12 +47,14 @@ intro styles
     color: #FFFFFF;
 }
 .banner-img img{
-    width: 100%;
+    width: 615px;
+    padding-left: 100px;
+    padding-top: 44px;
 }
 .banner{
     display: flex;
     padding-left: 140px;
-    padding-top: 60px;
+ 
 }
 /*--------------
  players section 
@@ -77,8 +79,45 @@ intro styles
 .player> h3{
     font-size: 25px;
 }
+/*----------
+ player styel end
+-------- */
+
 /* highlights styles */
+.highlight{
+    padding-top: 60px;
+    padding-left: 50px;
+    display: flex;
+}
+.highlight img{
+    padding-top: 80px;
+}
 .two{
    color: black;
    font-size:64px; ;
 }
+.highlight img{
+ width: 100%;
+ height: 427px;
+}
+/*----------- 
+highlight part end 
+----------*/
+
+/* footer section */
+.footer-section{
+    padding-top: 158px;
+    text-align: center;
+}
+.awesome-icons{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+/* footer section end */
+
+
