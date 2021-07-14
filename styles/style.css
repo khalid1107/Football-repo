@@ -47,7 +47,7 @@ intro styles
     color: #FFFFFF;
 }
 .banner-img img{
-    width: 615px;
+    width: 100%;
     padding-left: 100px;
     padding-top: 44px;
 }
@@ -196,5 +196,6 @@ footer{
     font-size: 30px;
 }
 /* footer section end */
+
 
 
