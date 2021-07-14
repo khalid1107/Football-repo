@@ -13,7 +13,6 @@ intro styles
 ---------- */
 #intro{
     background-color: #2D25A0;
-    height: 677px;
 }
 /* anchor-tags style */
 .anchor-tags{
@@ -43,14 +42,12 @@ intro styles
     margin-right: 120px;
 }
 /* -----introduction----- */
-#into{
+.into{
     font-size: 64px;
     color: #FFFFFF;
 }
 .banner-img img{
-    width: 615px;
-    height: 475px;
-    padding-left: 80px;
+    width: 100%;
 }
 .banner{
     display: flex;
@@ -61,17 +58,14 @@ intro styles
  players section 
  --------------*/
 .players{
-    padding-top: 45px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 100px;
-    width: 330px;
-    height: 474px;
-    margin-left: 50px;
+    grid-column-gap:25px;
+    padding-top: 45px;
+    width: 100%;
 }
 .player img{
-    height: 256px;
-    width: 300px;
+    width: 100%;
 }
 .players .player{
     border-radius: 5px;
@@ -82,4 +76,9 @@ intro styles
 }
 .player> h3{
     font-size: 25px;
+}
+/* highlights styles */
+.two{
+   color: black;
+   font-size:64px; ;
 }
